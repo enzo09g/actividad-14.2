@@ -1,0 +1,43 @@
+.texto{
+    background-color: #F8F9FA;
+    text-align: justify;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: "texto1 texto2 texto3"
+                         "texto4 texto5 texto6"
+                         "texto7 texto8 texto9";
+}
+
+.texto .p1{
+    grid-area: texto1;
+}
+
+.texto .p2{
+    grid-area: texto2;
+
+}
+
+.texto .p3{
+    grid-area: texto3;
+
+}
+
+.texto .p4{
+    grid-area: texto4;
+}
+
+.texto .p5{
+    grid-area: texto5;
+}
+
+.texto .p6{
+    grid-area: texto6;
+}
+
+.texto .p7{
+    grid-area: texto7;
+}
+
+.texto .p8{
+    grid-area: texto8;
+}
