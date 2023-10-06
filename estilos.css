@@ -1,0 +1,137 @@
+.texto {
+    font-size: 1rem;
+    text-align: justify;
+    display: grid;
+    grid-row-gap: 15px;
+    background-clip: blue;
+    grid-template-areas: "p1 p2 p3"
+        "p4 p5 p6"
+        "p7 p8 p9";
+}
+
+
+.p1 {
+    padding-right: 15px;
+    background-color: #F8F9FA; 
+    grid-area: p1;
+}
+
+.p2 {
+    grid-area: p2;
+    padding-right: 15px;
+    background-color: #F8F9FA; 
+}
+
+.p3 {
+    grid-area: p3;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+
+}
+
+.p4 {
+    grid-area: p4;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+}
+
+.p5 {
+    grid-area: p5;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+}
+
+.p6 {
+    grid-area: p6;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+}
+
+.p7 {
+    grid-area: p7;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+}
+
+.p8 {
+    grid-area: p8;
+    background-color: #F8F9FA; 
+    padding-right: 15px;
+}
+
+@media (max-width: 991px) {
+    .texto {
+        font-size: 1rem;
+        text-align: justify;
+        display: grid;
+        grid-row-gap: 15px;
+        grid-template-areas: "p1 p2"
+            "p3 p4"
+            "p5 p6"
+            "p7 p8";
+    }
+
+    .p1 {
+        padding-right: 30px;
+        background-color: #F8F9FA; 
+        grid-area: p1;
+    }
+    
+    .p2 {
+        grid-area: p2;
+        background-color: #F8F9FA; 
+    }
+    
+    .p3 {
+        grid-area: p3;
+        padding-right: 30px;
+        background-color: #F8F9FA; 
+    
+    }
+    
+    .p4 {
+        grid-area: p4;
+        background-color: #F8F9FA; 
+    }
+    
+    .p5 {
+        grid-area: p5;
+        background-color: #F8F9FA; 
+        padding-right: 30px;
+    }
+    
+    .p6 {
+        grid-area: p6;
+        background-color: #F8F9FA; 
+    }
+    
+    .p7 {
+        grid-area: p7;
+        background-color: #F8F9FA; 
+        padding-right: 30px;
+    }
+    
+    .p8 {
+        grid-area: p8;
+        background-color: #F8F9FA; 
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .texto {
+        font-size: 1.4rem;
+        text-align: justify;
+        display: grid;
+        grid-gap: 30px;
+        grid-template-areas: "p1"
+            "p2"
+            "p3"
+            "p4"
+            "p5"
+            "p6"
+            "p7"
+            "p8";
+    }
+}
