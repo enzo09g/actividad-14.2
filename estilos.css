@@ -1,43 +1,82 @@
 .texto{
-    background-color: #F8F9FA;
+    font-size: 1rem;
     text-align: justify;
     display: grid;
-    grid-gap: 30px;
+    grid-row-gap: 30px;
+    grid-column-gap: 11px;
     grid-template-areas: "texto1 texto2 texto3"
                          "texto4 texto5 texto6"
                          "texto7 texto8 texto9";
 }
 
+
 .texto .p1{
     grid-area: texto1;
+    background-color: #F8F9FA
 }
 
 .texto .p2{
     grid-area: texto2;
+    background-color: #F8F9FA
 
 }
 
 .texto .p3{
     grid-area: texto3;
+    background-color: #F8F9FA
 
 }
 
 .texto .p4{
     grid-area: texto4;
+    background-color: #F8F9FA
 }
 
 .texto .p5{
     grid-area: texto5;
+    background-color: #F8F9FA
 }
 
 .texto .p6{
     grid-area: texto6;
+    background-color: #F8F9FA
 }
 
 .texto .p7{
     grid-area: texto7;
+    background-color: #F8F9FA
 }
 
 .texto .p8{
     grid-area: texto8;
+    background-color: #F8F9FA
+}
+
+
+@media (max-width: 991px){
+    .texto{
+        font-size: 1.2rem;
+        text-align: justify;
+        display: grid;
+        grid-template-areas: "texto1 texto2"
+                             "texto3 texto4"
+                             "texto5 texto6"
+                             "texto7 texto8";
+    }
+}
+
+@media (max-width: 767px){
+    .texto{
+        font-size: 1.2rem;
+        text-align: justify;
+        display: grid;
+        grid-template-areas: "texto1"
+                             "texto2"
+                             "texto3"
+                             "texto4"
+                             "texto5"
+                             "texto6"
+                             "texto7"
+                             "texto8";
+    }
 }
